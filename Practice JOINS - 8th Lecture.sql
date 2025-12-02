@@ -439,24 +439,9 @@ INNER JOIN employees m
 ON e.manager_id = m.emp_id AND e.emp_id <> m.emp_id
 WHERE e.manager_id = m.emp_id;-------------- do it again, its wrong
 
--- 49. Show employees whose project department is located in a different city than their home department.
--- 50. Show all employees with their level:
--- • “Top Level” = no manager
--- • “Mid Level” = has manager but no direct reports
--- • “Manager Level” = has employees reporting
 
--- Bonus — Challenge Questions
 
--- 51. Show employees hired most recently in each department.
--- 52. Show departments ranked by salary spend (use ranking logic).
--- 53. Show employees whose salary equals the average salary of their department.
--- 54. Show managers whose subordinates earn more than them.
--- 55. Show for each department, the highest paid employee and lowest paid employee.
--- 56. Show employees whose name matches any manager’s name.
--- 57. Show employee count per department per project (matrix style).
--- 58. Show how much budget of a project remains after paying employee salaries.
--- 59. Show difference between highest and lowest salary in each department.
--- 60. Show employees working on projects with budget higher than the total salary of their department.
+
 
 
 
